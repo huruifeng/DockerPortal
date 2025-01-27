@@ -1,0 +1,14 @@
+/* App.css */
+.app {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.app-content {
+  flex-grow: 1; /* Take up the remaining width */
+  padding: 20px;
+  background-color: #ffffff; /* Example background color for the content area */
+  overflow-y: auto; /* Allow scrolling if content overflows */
+  height: 100vh; /* Ensures the content area fills the height */
+}

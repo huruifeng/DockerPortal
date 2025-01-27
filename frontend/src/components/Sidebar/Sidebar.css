@@ -1,0 +1,35 @@
+.sidebar {
+  width: 270px;
+  height: 100vh;
+  background-color: #1976d2;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-title {
+  height: 80px;             /* 固定高度 */
+  display: flex;            /* 使用 Flexbox */
+  align-items: center;      /* 垂直居中 */
+  padding-left: 16px;       /* 左边内边距，适当美化 */
+  font-size: 1.25rem;       /* 调整字体大小 */
+      background-color: #1565c0;
+}
+
+.sidebar-title:hover {
+  background-color: #1565c0;
+  cursor: pointer;
+}
+
+.sidebar .MuiList-root {
+  padding: 0;
+}
+
+.sidebar .MuiListItem-root {
+  color: white;
+    cursor: pointer;
+}
+
+.sidebar .MuiListItem-root:hover {
+  background-color: #1565c0;
+}

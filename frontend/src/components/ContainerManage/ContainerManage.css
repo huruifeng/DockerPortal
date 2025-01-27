@@ -1,0 +1,12 @@
+.container-manage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    height: 100vh;
+    width: 100%;
+}
+
+button {
+    margin: 10px;
+}

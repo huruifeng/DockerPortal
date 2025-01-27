@@ -1,0 +1,16 @@
+.image-manage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    height: 100vh;
+    width: 100%;
+}
+
+.pull-image-input {
+    display: flex;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
